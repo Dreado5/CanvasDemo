@@ -28,16 +28,22 @@ import android.view.ViewGroup;
    
    
    
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_canvas_demo);
+
+
    private Bitmap bitmap;
     private float x;
     private float y;
 
 class CanvasDemo extends AppCompatActivity implements View.OnTouchListener {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_canvas_demo);
+
+
 
        
         MyCanvas myCanvas = new MyCanvas(this);
