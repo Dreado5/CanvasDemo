@@ -19,6 +19,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
+
+
+
 class CanvasDemo extends AppCompatActivity implements View.OnTouchListener {
     private Bitmap bitmap;
     private float x;
