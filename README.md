@@ -1,6 +1,6 @@
 # CanvasDemo
 Youtube Android project by Simplilearn
-
+Unfortunately, I can't get the first few lines to format correctly, so they appear to be missing their carriage returns; when I look at the file in the Github edit mode it all looks OK!
 
 
 CanvasDemo.java
