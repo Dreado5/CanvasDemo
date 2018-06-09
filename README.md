@@ -22,10 +22,17 @@ import android.view.ViewGroup;
 
 
 
-class CanvasDemo extends AppCompatActivity implements View.OnTouchListener {
-    private Bitmap bitmap;
+
+   
+   
+   
+   
+   
+   private Bitmap bitmap;
     private float x;
     private float y;
+
+class CanvasDemo extends AppCompatActivity implements View.OnTouchListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
